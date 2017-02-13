@@ -50,7 +50,8 @@
         android:layout_marginTop="30dp"/>
 ```
 ```
-传递单词 setWords(String word)  
+传递单词 setWords(String word)  
+例如: setWords("静香和胖虎")
 ```
 
 <br/>
@@ -75,4 +76,4 @@
 
 ###end
 
-
+####喜欢的可以赏个star
