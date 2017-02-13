@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--LetterView共有属性-->
+    <attr name="textSize" format="integer|reference"/>
+    <attr name="textDefaultColor" format="integer|reference|color"/>
+    <attr name="textCheckColor" format="integer|reference|color"/>
+    <attr name="textFinishColor" format="integer|reference|color"/>
+    <attr name="strokeWidth" format="integer|reference"/>
+    <attr name="strokeColor" format="integer|reference|color"/>
+    <attr name="checkedColor" format="integer|reference|color"/>
+
+    <!--字母控件 自定义属性-->
+    <declare-styleable name="LetterGridView">
+        <attr name="letterViewSize" format="integer|reference"/>
+        <attr name="letterColumn" format="integer"/>
+        <attr name="letterRow" format="integer"/>
+        <attr name="letterHorizontalMargin" format="integer|reference"/>
+        <attr name="letterVerticalMargin" format="integer|reference"/>
+        <attr name="strokeFinishWidth" format="integer|reference"/>
+        <attr name="strokeFinishColor" format="integer|reference|color"/>
+        <attr name="textSize"/>
+        <attr name="textDefaultColor"/>
+        <attr name="textCheckColor"/>
+        <attr name="textFinishColor"/>
+        <attr name="strokeWidth"/>
+        <attr name="strokeColor"/>
+        <attr name="checkedColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="LetterView">
+        <attr name="textSize"/>
+        <attr name="textDefaultColor"/>
+        <attr name="textCheckColor"/>
+        <attr name="textFinishColor"/>
+        <attr name="checkedColor"/>
+        <attr name="strokeWidth"/>
+        <attr name="strokeColor"/>
+    </declare-styleable>
+</resources>
