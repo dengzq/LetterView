@@ -49,7 +49,8 @@
 
         android:layout_marginTop="30dp"/>
 ```
-
+传递单词 setWords(String word)
+<br/>
 ##相关属性
 
 | 属性    | 描述    |
